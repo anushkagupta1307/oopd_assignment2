@@ -1,4 +1,4 @@
-package virus;
+package src.virus;
 
 public class CovidVirus {
 
