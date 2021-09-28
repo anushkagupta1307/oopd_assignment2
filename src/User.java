@@ -1,26 +1,19 @@
 package src;
 
+import src.vaccine.Vaccine;
+
 public class User {
-    private String firstname;
-    private String lastname;
+
     private String username;
     private String aadharNumber;
+    private Vaccine vaccine;
 
-
-    public String getFirstname() {
-        return firstname;
+    public Vaccine getVaccine() {
+        return vaccine;
     }
 
-    public void setFirstname(String firstname) {
-        this.firstname = firstname;
-    }
-
-    public String getLastname() {
-        return lastname;
-    }
-
-    public void setLastname(String lastname) {
-        this.lastname = lastname;
+    public void setVaccine(Vaccine vaccine) {
+        this.vaccine = vaccine;
     }
 
     public String getUsername() {
