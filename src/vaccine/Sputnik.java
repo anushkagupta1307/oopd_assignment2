@@ -1,4 +1,4 @@
 package src.vaccine;
 
-public class Sputnik {
+public class Sputnik extends Vaccine{
 }

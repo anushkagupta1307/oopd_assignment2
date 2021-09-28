@@ -1,5 +1,5 @@
 package src.vaccine;
 
-public class Covaxin {
+public class Covaxin extends Vaccine {
 
 }

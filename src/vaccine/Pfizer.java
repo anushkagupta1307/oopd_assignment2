@@ -1,4 +1,4 @@
 package src.vaccine;
 
-public class Pfizer {
+public class Pfizer extends Vaccine{
 }
