@@ -119,7 +119,7 @@ public class Home {
                              "However, The vaccine helps you fight against several attacks of the virus and proves to\n" +
                              "be useful. This shows how important the vaccine is in the fight against COVID-19.\n" +
                              "Thanks for your participation. Now Let’s get Vaccinated !!!");
-                     break;
+                     System.exit(0);
                  }
                  if(life<=0 && (wave_number==1 ||wave_number==2 || wave_number==3)){
                      System.out.println("Virus Defeated !\n" +
@@ -133,7 +133,7 @@ public class Home {
                              "Congratulations, your vaccine has overpowered all the variants of the virus and hence\n" +
                              "has proved to be effective in all the waves. Great Job!\n" +
                              "Thanks for your participation. Now let’s get Vaccinated !!!");
-                     break;
+                     System.exit(0);
                  }
              }
              if(choice ==2){
@@ -155,7 +155,7 @@ public class Home {
                              "However, The vaccine helps you fight against several attacks of the virus and proves to\n" +
                              "be useful. This shows how important the vaccine is in the fight against COVID-19.\n" +
                              "Thanks for your participation. Now Let’s get Vaccinated !!!");
-                     break;
+                     System.exit(0);
                  }
              }
 
@@ -165,6 +165,7 @@ public class Home {
         if(choice ==3){
             System.out.println("Exited at wave "+wave_number +"!\n" +
                     "Thanks for your participation. Let’s get Vaccinated !!!");
+            System.exit(0);
         }
 
 
